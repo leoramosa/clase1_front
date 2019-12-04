@@ -10,6 +10,24 @@ body{
     font-style: normal;
 }
 
+header .header-container{ 
+  display:flex;
+  background-color: aqua;;
+ }
+
+ header .header-container ul{
+     display: inherit;
+     width: 100%;
+ }
+
+ header .header-container ul li{
+     margin: 0 1.5% 1% 2%;
+     width: 19%;
+     text-align: none;
+     list-style: none;
+    
+}
+
 h1 {
   color: rgba(22, 29, 24, 1); 
   font-family:Georgia, 'Times New Roman', Times, serif;
