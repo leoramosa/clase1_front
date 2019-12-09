@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <style>
+        .container{
+            width: 20%;
+            position: relative;
+            top: 50%;
+            left: 40%;
+            background-color: #ededed;
+        }
+
+        input{
+            display: block;
+            width: 100%;
+        }
+        input.email{
+            border:1px solid black ;
+        }
+    </style>
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="container">
+        <form name="formulario" action="">
+            <label for="email">Escribe tu email</label>
+            <input type="email" placeholder="tu email" name="email" id="email" class="email"><br>
+            <label for="nombre">Escribe tu nombre</label>
+            <input type="text" placeholder="tu nombre" name="nombre" id="name" class="nombre"><br>
+            <label for="color">Tu color favorito</label>
+            <input type="color" name="color" id="color" class="color">
+            <label for="comentario">Tu comentario</label>
+            <textarea name="comentario" id="comentario" cols="15" rows="10" class="comentario"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script src="script-contacto.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+
+    <style>
+        .row{
+            padding: 0;
+            margin: 0;
+        }
+        .uno_hijos{
+            height: 200px;
+            background-color: antiquewhite;
+            outline: 2px solid white;
+        }
+        .segundo_hijo{
+            height: 600px;
+            background-color: aqua;
+            outline: 2px solid white;
+        }
+        .segundo_hijo:nth-child(2){
+            padding: 0;
+        }
+        .segundo_hijo_nietos{
+            height: 200px;
+            background-color: aqua;
+            outline: 2px solid white;
+            padding: 0;
+        }
+        .tercero{
+            height: 200px;
+            background-color: aquamarine;
+            padding: 0;
+        }
+        .cuarto_hijo{
+            background-color: blueviolet;
+            height: 200px;
+            outline: 2px solid white;
+        }
+        .quinto_hijo{
+            background-color: rgb(65, 17, 110);
+            height: 200px;
+            outline: 2px solid white;
+        }
+
+        @media(max-width:480px){
+            .uno_hijos:nth-child(2){
+                display: none;
+            }
+            .segundo_hijo:nth-child(2){
+                display: none;
+            }
+            .cuarto_hijo:nth-child(2){
+                display: none;
+            }
+            .cuarto_hijo:nth-last-child(3){
+                display: none;
+            }
+            .quinto_hijo:nth-last-child(2){
+                display: none;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <main>
+
+        <div class="container">
+            <div class="">
+                    <section class=" row uno col-lg-12 ">
+                            <div class="uno_hijos col-lg-4"></div>
+                            <div class="uno_hijos col-lg-8"></div>
+                        </section>
+                    
+                        <section class=" row segundo col-lg-12">
+                            <div class="segundo_hijo col-lg-8"></div>
+                            <div class="segundo_hijo col-lg-4">
+                                <div class="segundo_hijo_nietos"></div>
+                                <div class="segundo_hijo_nietos"></div>
+                                <div class="segundo_hijo_nietos"></div>
+                            </div>
+                        </section>
+                        <section class="tercero  "></section>
+                        <section class="row cuarto col-lg-12">
+                            <div class="cuarto_hijo col-lg-4"></div>
+                            <div class="cuarto_hijo col-lg-4"></div>
+                            <div class="cuarto_hijo col-lg-4"></div>
+                        </section>
+                        <section class="row quinto col-lg-12">
+                            <div class="quinto_hijo col-lg-7"></div>
+                            <div class="quinto_hijo col-lg-5"></div>
+                        </section>
+
+            </div>
+        </div>
+           
+
+    </main>
+        
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html> 
+
+
+
