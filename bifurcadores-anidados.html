@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        /*
+        if(true){
+            console.log("paso 1")
+        }else if(true){
+            console.log("paso 2")
+        }else if(true){
+             console.log("paso 3")
+        }
+            */ 
+
+       /* function metodo(){
+            console.log("pasado 2")
+            console.log("pasado 2")
+            console.log("pasado 2")
+            console.log("pasado 2")
+            console.log("pasado 2")
+        }
+        metodo();
+
+        function metodo(a){
+            for (var i=0;i<a;++i){
+                console.log("paso "+1)
+            }
+        }
+        metodo(20);*/
+        var a = 10
+        var b = 6
+        var y = "sin"
+        var x =5
+        function sumar(a,b){ 
+            return a+b;
+        };
+        function restar(a,b){
+            return a-b;
+        };
+        function dividir(a,b){
+            return a/b;
+        }
+        function multiplicar(a,b){
+            return a*b
+        };
+        function raizcua(a){
+            return Math.sqrt(a)
+        };
+
+        function cos(x){
+            return Math.cos(x)
+        };
+        function trigo(x,y){
+            switch(y){
+                case "sin" : return Math.sin(x);
+                break;
+                case "cos" : return Math.cos(x);
+                break;
+            }
+        }
+
+        var l=4;
+        var m = 5;
+        var n="rectangulo";
+        function area(l,m,n){
+            switch(n){
+                case "cuadrado" : return Math.pow(l,2);
+                break;
+                case "triangulo" : return (Math.sqrt(3)*Math.pow(l,2))/4;
+                break;
+                case "circulo" : return Math.pi*Math.pow(l,2);
+                break;
+                case "rectangulo" : return Math.imul(l,m);
+                break
+            }
+        }console.log(area(l,m,n))
+        
+
+        console.log(sumar(a,b),restar(a,b),dividir(a,b),multiplicar(a,b),raizcua(a),trigo(x,y))
+     
+
+
+
+        
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
