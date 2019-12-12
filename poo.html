@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <script>
+        class persona {
+            constructor(nombre,apellido,email,dni){
+                this.nombre=nombre;
+                this.apellido=apellido;
+                this.email=email;
+                this.dni=dni;
+            }
+        }
+
+        var personita = new persona("ronal","quiroz","rquin@gmail.","434343433");
+            personita.hijo ="jesus";//un nuevo nombre objeto
+    </script> -->
+
+    <!-- <script>
+        class Dios{
+            constructor(nombre){
+                this.nombre=nombre
+            }
+            crearPlaneta =function(nombrePlaneta){
+                return "planeta creado"+ nombrePlaneta;
+            };
+            crearHumano = function(nombreHumano){
+                return "humano creado"+ nombreHumano;
+            };
+            crearAnimal =function(nombreAnimal){
+                return "animal"+ nombreAnimal;
+            };
+        };
+        class semiDios extends Dios{
+
+        };
+
+        var personita = new Dios();
+        var perseo = new semiDios("perseo")
+
+           
+    </script> -->
+
+   <!--  <script>
+        class cuadrado{
+            constructor(lado){
+                this.l1= 5
+                this.l2= 5
+                this.l3= 5
+            };
+            crearArea = function(areaCuadrado){
+                return "Lado cuadraro"+ areaCuadrado;
+            };
+        }
+
+        var cuadradito = new cuadrado()
+        console.log()
+        
+            
+    </script> -->
+
+    <script>
+        class circulo {
+            constructor(radio) {
+                this.radio = radio
+            }
+            area = function (radio) {
+                return Math.PI * Math.pow(radio, 2);
+            }
+            volumen = function (radio) {
+                return (4 / 3) * Math.PI * Math.pow(radio, 3);
+            }
+        }
+        var circulito = new circulo()
+        console.log(circulito.area(3))
+        console.log(circulito.volumen(3))
+
+
+
+
+
+        class cuadrilatero {
+            constructor(l1, l2, l3) {
+                this.l1 = l1
+                this.l2 = l2
+                this.l3 = l3
+            }
+            area = function (l1, l2) {
+                return Math.imul(l1, l2);
+            }
+            volumen = function (l1, l2, l3) {
+                return l1*l2*l3;
+            }
+        };
+        class rectangulo extends cuadrilatero{
+            ladoRectangulo(l4){
+                this.l4 = l4
+            }
+            areaRectangulo = function(l1,l4){
+                return l1*l4
+            }
+        }
+        var rectangulito = new rectangulo()
+        var cuadrado = new cuadrilatero()
+        console.log(cuadrado.area(3,4))
+        console.log(cuadrado.volumen(3,4,5))
+        console.log(rectangulito.areaRectangulo(7,5))
+
+
+
+        class triangulo {
+            constructor(base,altura) {
+                this.base = base
+                this.altura = altura
+            }
+            area = function (base, altura) {
+                return Math.imul(base, altura)/2;
+            }
+            volumen = function (base, altura) {
+                return (Math.sqrt(3)/12)*Math.pow(base,2)*altura;
+            }
+        }
+        var triangulito = new triangulo()
+        console.log(triangulito.area(5,6))
+        console.log(triangulito.volumen(5,6))
+    </script>
+</body>
+</html>
