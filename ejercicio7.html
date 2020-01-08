@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = new Object();   /*cada linea en javascript se llama sentencia*/
+            /*var a = {} es lo mismo que la anterior sentencia*/
+        
+       /* a.name = {}; //a.name = new Object();
+        var b = new Number(5);
+        var c = new Date('16/12/2019');
+        var d = new Boolean(false);
+        var e = new RegExp('a|b|c');/*ha creado 5 onjetos nativos de javascript--objetos nativos es con lo que vino javascript*/
+        
+        a = {
+            name:{
+                lastname: "bla"
+            },
+            apodo : "LEO",
+            est_civil : "casado",
+            fec_nac : new Date(12/12/90),
+            eda : new Number(35),
+            esposa : "Alexis Texas",
+            hijos : [
+                    {
+                        name : "leo",
+                        lastname : "guerrero",
+                        hijos:[
+                            {
+                                name: "leoncito",
+                                lastname: "guerrero",
+                                hijos:[
+                                    {
+                                        name : "Pedro",
+                                        lastname : "Miguel"
+                                    },
+                                    {
+                                        name: "Ronald",
+                                        lastname : "Luis",
+                                        poderes:[
+                                            {
+                                                hablar : function(){
+                                                    return "hablo bastante"
+                                                },
+                                                comer : function(){
+                                                    return "como muy poco"
+                                                }
+                                            }
+                                        
+                                        ]
+                                    }  
+                                    
+                                ]
+                            }
+                        
+                        ]
+                    },
+                    {
+                        name : "nicolas",
+                        lastname : "farfan"
+                    }
+                ]
+        }
+
+
+
+
+
+            let x = a.hijos[0].hijos[0].hijos;
+            
+            for(let i = 0; i < x.length; i++){
+
+            console.log(x[i]);
+
+            }
+
+
+
+
+            
+            let total = [{"hijoscom":x}, 
+               {"hijoscom": ["leon", "martin", "ana", "maria"]}];
+
+            for(let i = 0; i < total.length; i++){
+
+            let hijoscom = total[i].hijoscom;
+
+            for(let j = 0; j < hijoscom.length; j++){
+
+            console.log(hijoscom[j]);
+
+            }
+
+            }
+
+
+        
+
+        
+
+
+
+
+
+
+    </script>
+</body>
+</html>
+
+
+
